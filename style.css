@@ -1,0 +1,93 @@
+ 
+body{ 
+ 
+  /* Stacks a 60% opaque white tint over the background image */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)), 
+                    url("https://images.steamusercontent.com/ugc/579013736177276330/2CD3B303F43A7C9F003B93F38F28CAECC9BA533D/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+  background-size: cover;
+  background-position: center;
+  
+  width: 100%;
+  min-height: 400px;
+}
+
+section {
+  margin: 18px;
+  padding: 10px;
+  background-color: rgba(156, 54, 54, 0.6);
+  border-radius: 10px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(161, 26, 26, 0.7);
+    border-radius: 10px;
+}
+
+.idiomas {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(156, 54, 54, 0.6);
+    border-radius: 10px;
+    align-items: center;
+
+    display: flex;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+}
+
+.middle {
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+
+#links{
+    a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: rgba(161, 26, 26, 0.7);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 19px;
+    }
+}
+
+.aboutimage {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.projects {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+    border-radius: 20px;
+    align-items: center;
+
+    display: flex;
+}
+
+.mate {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
