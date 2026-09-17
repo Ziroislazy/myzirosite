@@ -2,16 +2,17 @@
 body{ 
  
   /* Stacks a 60% opaque white tint over the background image */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)), 
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)), 
                     url("https://images.steamusercontent.com/ugc/579013736177276330/2CD3B303F43A7C9F003B93F38F28CAECC9BA533D/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
   background-size: cover;
   background-position: center;
+  font-family:garamond;
   
   width: 100%;
   min-height: 400px;
 }
 
-section {
+.aboutmesection {
   margin: 18px;
   padding: 10px;
   background-color: rgba(156, 54, 54, 0.6);
@@ -34,7 +35,7 @@ section {
     background-color: rgba(156, 54, 54, 0.6);
     border-radius: 10px;
     align-items: center;
-
+    font-size: medium;
     display: flex;
 }
 
@@ -90,4 +91,81 @@ section {
     border-radius: 10px;
     margin-left: 10px;
 }
+
+.titlelikemain {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlelike {
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+
+}
+
+.fftitlelike {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.favseries {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.favseriescontent {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.bojack {
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.favgames {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.favgamescontent {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(156, 54, 54, 0.6);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.sally {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 10px;
+    align-items: right;
+}
+
+
+
 
