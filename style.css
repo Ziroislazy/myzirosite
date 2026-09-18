@@ -9,22 +9,46 @@
     opacity: 1;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-the-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(161, 26, 26, 0.88);
+  color: rgb(209, 132, 132);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
 
 body{ 
 
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)), 
-                    url("https://images.steamusercontent.com/ugc/579013736177276330/2CD3B303F43A7C9F003B93F38F28CAECC9BA533D/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+  background-image: linear-gradient(rgba(102, 84, 84, 0.7), rgba(173, 29, 29, 0.8)),
+                   url("fondo.jpg");
   background-size: cover;
-  background-position: center;
-  font-family:garamond;
+  background-position: center center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-attachment: fixed;
   width: 100%;
-  min-height: 400px;
+  image-rendering: smooth;
+  min-height: 100vh;
 }
 
 .aboutmesection {
   margin: 18px;
   padding: 10px;
-  background-color: rgba(156, 54, 54, 0.6);
+  background-color: rgba(156, 54, 54, 0.88);
   border-radius: 10px;
   align-items: center;
   gap: 10px;
@@ -35,7 +59,7 @@ body{
 .header {
     text-align: center;
     padding: 20px;
-    background-color: rgba(161, 26, 26, 0.7);
+    background-color: rgba(161, 26, 26, 0.88);
     border-radius: 10px;
     animation: fadeIn 1s ease-in-out forwards;
 }
@@ -44,7 +68,7 @@ body{
 .idiomas {
     margin: 20px;
     padding: 20px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     border-radius: 10px;
     align-items: center;
     font-size: medium;
@@ -57,7 +81,7 @@ body{
     margin: 20px;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     animation: fadeIn 1s ease-in-out forwards;
 }
 
@@ -77,7 +101,7 @@ body{
         display: inline-block;
         margin: 10px;
         padding: 10px 20px;
-        background-color: rgba(161, 26, 26, 0.7);
+        background-color: rgba(161, 26, 26, 0.88);
         color:rgb(209, 132, 132);
         text-decoration: none;
         border-radius: 5px;
@@ -95,7 +119,7 @@ body{
 .projects {
     margin: 20px;
     padding: 10px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     border-radius: 20px;
     align-items: center;
     animation: fadeIn 1s ease-in-out forwards;
@@ -114,7 +138,7 @@ body{
     margin: 20px;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +155,7 @@ body{
 .favseries {
     margin: 20px;
     padding: 10px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     border-radius: 20px;
     align-items: center;
     display: flex;
@@ -157,7 +181,7 @@ body{
 .favgames {
     margin: 20px;
     padding: 10px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     border-radius: 20px;
     align-items: center;
     display: flex;
@@ -167,7 +191,7 @@ body{
 .favgamescontent {
     margin: 20px;
     padding: 10px;
-    background-color: rgba(156, 54, 54, 0.6);
+    background-color: rgba(156, 54, 54, 0.88);
     border-radius: 20px;
     align-items: center;
     display: flex;
@@ -181,6 +205,7 @@ body{
     margin-left: 10px;
     align-items: right;
 }
+
 
 
 
