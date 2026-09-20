@@ -20,3 +20,12 @@ app.command("/el-botcito-ping", async ({ command, ack, respond }) => {
   console.log("bot is running!");
 })();
 
+app.command("/el-botcito-help", async ({ ack, respond }) => {
+  await ack();
+  await respond({
+    text:
+`Available Commands:
+/el-botcito-ping - Check bot latency
+/el-botcito-catfact - Get a cat fact`
+  });
+});
